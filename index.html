@@ -7,19 +7,19 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Oddventurers">
 <link rel="manifest" href="manifest.webmanifest">
-<link rel="stylesheet" href="styles.css?v=3">
+<link rel="stylesheet" href="styles.css?v=4">
 <title>Oddventurers — Prototype</title>
 </head>
 <body>
 <div id="app"></div>
-<script src="app.js?v=3"></script>
+<script src="app-v3.js?v=1"></script>
 <script>
 setTimeout(function(){
   var app=document.getElementById('app');
   if(app && !app.innerHTML.trim()){
-    app.innerHTML='<div class="shell"><div class="card"><h1>Oddventurers</h1><p>The game code could not load in this browser view.</p><p>Open this page in Safari and try again.</p><button class="btn good" onclick="location.reload()">Try again</button></div></div>';
+    app.innerHTML='<div class="shell"><div class="card"><h1>Oddventurers</h1><p>The v0.3 game script did not execute.</p><button class="btn good" onclick="location.reload()">Try again</button></div></div>';
   }
-},1000);
+},1500);
 </script>
 </body>
 </html>
