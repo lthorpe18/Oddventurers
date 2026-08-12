@@ -1,7 +1,26 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
-<meta name="theme-color" content="#f4ead7"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Oddventurers">
-<link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css"><title>Oddventurers — Prototype</title>
-</head><body><div id="app"></div><script src="app.js"></script></body></html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="theme-color" content="#f4ead7">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Oddventurers">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="styles.css?v=2">
+<title>Oddventurers — Prototype</title>
+</head>
+<body>
+<div id="app"></div>
+<script src="app.js?v=2"></script>
+<script>
+setTimeout(function(){
+  var app=document.getElementById('app');
+  if(app && !app.innerHTML.trim()){
+    try{localStorage.removeItem('oddventurers-v1');}catch(e){}
+    app.innerHTML='<div class="shell"><div class="card"><h1>Oddventurers</h1><p>The app did not start correctly. The saved prototype state has been cleared.</p><button class="btn good" onclick="location.reload()">Reload game</button></div></div>';
+  }
+},700);
+</script>
+</body>
+</html>
