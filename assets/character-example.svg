@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 900" role="img" aria-label="Example Oddventurer made from Dragon Head, Jelly Body, Spider Legs and Magic Handbag cards">
+<defs><filter id="sh"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".2"/></filter><linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff9e9"/><stop offset="1" stop-color="#f0e4c9"/></linearGradient><linearGradient id="jelly" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#68d9d2"/><stop offset="1" stop-color="#4b8fd2"/></linearGradient></defs>
+<rect width="1100" height="900" rx="45" fill="#f7f1e5"/>
+<!-- connecting cards -->
+<g filter="url(#sh)">
+ <rect x="80" y="70" width="700" height="230" rx="28" fill="url(#paper)"/>
+ <rect x="80" y="302" width="700" height="245" rx="28" fill="url(#paper)"/>
+ <rect x="80" y="549" width="700" height="260" rx="28" fill="url(#paper)"/>
+ <rect x="805" y="170" width="220" height="530" rx="28" fill="#f1e4fa"/>
+</g>
+<!-- subtle seams -->
+<g stroke="#d4b7ff" stroke-width="8" opacity=".7"><path d="M390 299h360"/><path d="M390 548h360"/></g><g fill="#fff" opacity=".8"><circle cx="470" cy="299" r="7"/><circle cx="560" cy="299" r="5"/><circle cx="650" cy="299" r="7"/><circle cx="470" cy="548" r="6"/><circle cx="560" cy="548" r="8"/><circle cx="650" cy="548" r="5"/></g>
+<!-- labels -->
+<g font-family="system-ui,sans-serif" font-weight="900"><text x="115" y="120" font-size="24" fill="#9c4e34">HEAD</text><text x="115" y="155" font-size="38" fill="#522d25">Dragon Head</text><text x="115" y="205" font-size="19" fill="#795d50">ABILITY</text><text x="115" y="245" font-size="32" fill="#a63e2c">Hot Stuff!</text>
+<text x="115" y="350" font-size="24" fill="#3e80ae">BODY</text><text x="115" y="387" font-size="38" fill="#2b536c">Jelly Body</text><text x="115" y="440" font-size="19" fill="#647985">ABILITY</text><text x="115" y="480" font-size="32" fill="#2f7e9f">Squish &amp; Squeeze</text>
+<text x="115" y="603" font-size="24" fill="#607d3b">LEGS</text><text x="115" y="640" font-size="38" fill="#405429">Spider Legs</text><text x="115" y="690" font-size="19" fill="#68765c">ABILITY</text><text x="115" y="730" font-size="32" fill="#4b6c2e">Wall-Crawler</text>
+<text x="835" y="220" font-size="24" fill="#7550a0">EXTRA</text><text x="835" y="265" font-size="32" fill="#4e3768">Magic</text><text x="835" y="302" font-size="32" fill="#4e3768">Handbag</text><text x="835" y="360" font-size="18" fill="#7f7390">ABILITY</text><text x="835" y="395" font-size="27" fill="#6b4098">Just the Thing!</text></g>
+<!-- dragon head isolated on top card -->
+<g transform="translate(475 100)"><path d="M25 70q55-95 145-35q75 5 125 65q-18 75-110 75H65Q5 155 25 70z" fill="#e65938" stroke="#7b2f24" stroke-width="8"/><path d="M80 35L52-25l60 45M190 35l38-58 15 72" fill="#f0c369" stroke="#7b2f24" stroke-width="8"/><path d="M245 80l65-40-32 68 55 16-80 22z" fill="#aa4778" stroke="#7b2f24" stroke-width="7"/><circle cx="115" cy="80" r="23" fill="#fff2a7"/><circle cx="115" cy="80" r="9"/><circle cx="198" cy="88" r="23" fill="#fff2a7"/><circle cx="198" cy="88" r="9"/><path d="M90 133q88 50 162-4" fill="#fff" stroke="#7b2f24" stroke-width="8"/><path d="M240 138q55 10 85 45q-65-4-110-25z" fill="#ffb03e"/><path d="M270 145q48 14 70 45q-53-4-90-28z" fill="#ff6743"/></g>
+<!-- jelly body with no face -->
+<g transform="translate(485 325)"><path d="M65 10q85-45 175 0q55 60 48 145q-8 75-38 90H50q-42-20-43-96q-1-82 58-139z" fill="url(#jelly)" stroke="#2e6e97" stroke-width="8"/><path d="M25 95q-70 35-30 78q35 20 72-35M275 90q75 30 38 77q-38 24-78-28" fill="url(#jelly)" stroke="#2e6e97" stroke-width="8"/><g fill="#bff6ff" opacity=".7"><circle cx="85" cy="67" r="15"/><circle cx="205" cy="48" r="10"/><circle cx="151" cy="125" r="18"/><circle cx="238" cy="155" r="13"/></g></g>
+<!-- spider legs from standard connector, no abdomen creature -->
+<g transform="translate(485 575)" fill="none" stroke="#443e4a" stroke-width="25" stroke-linecap="round"><path d="M130 20Q45 55 5 160Q-10 210-55 230"/><path d="M145 25Q75 95 55 195Q45 235 15 255"/><path d="M165 25Q130 115 130 210Q125 250 100 270"/><path d="M185 25Q210 110 210 205Q215 245 240 270"/><path d="M205 20Q295 55 330 160Q350 205 390 225"/><path d="M190 25Q265 90 285 190Q295 230 325 255"/></g><g transform="translate(485 575)" fill="#67606d"><circle cx="130" cy="20" r="18"/><circle cx="165" cy="25" r="18"/><circle cx="190" cy="25" r="18"/><circle cx="205" cy="20" r="18"/></g>
+<!-- handbag -->
+<g transform="translate(835 450)"><path d="M20 60q10-70 65-70t65 70" fill="none" stroke="#7a4b7a" stroke-width="18"/><path d="M0 60h170l-15 150H15z" fill="#7c4aa5" stroke="#4a2d68" stroke-width="8"/><path d="M85 90l13 28 31 4-23 20 7 31-28-16-27 16 7-31-23-20 31-4z" fill="#f2c84f"/></g>
+</svg>
